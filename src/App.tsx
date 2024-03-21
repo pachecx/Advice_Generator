@@ -14,9 +14,7 @@ export const App = () => {
       const response = await api.get(`/advice`)
       
       const data = response.data.slip;
-
       console.log(data);
-
       setAdvice(data);
 
     } catch (error) {

@@ -4,7 +4,7 @@ export const Container = styled.div`
   background: #202632;
   height: 100vh;
   padding: 12rem 1rem;
-  min-width: 37rem;
+  min-width: 36rem;
 
   text-align: center;
 
@@ -35,18 +35,21 @@ export const Container = styled.div`
 
     .card{
       width: 53.6rem;
-      height: 33.3rem;
+      height: 22.3rem;
       margin: 0 auto;
+
+      p{
+        height: 25px;
+      }
     }
     
     .line{
-      background-image: url(./assets/pattern-divider-desktop.svg);
+      padding-top: 3rem;
     }
 
     .line .imgLine{
-      display: none;
+      width: 100%;
     }
-    
   }
 `;
 
@@ -65,14 +68,22 @@ export const Button = styled.button`
   }
 
   box-shadow: transparent;
-  border: 1px solid #ffffff80;
+  border: none;
   transition: 1.5s;
   user-select: none;
   
   :hover,
   :focus {
-    background: #008cff;
     box-shadow: 0 0 50px #53FFAB, 0 0 20px #53FFAB, 0 0 50px #53FFAB, 0 0 100px #53FFAB;
   }
 
+  @media(min-width: 1024px){
+    margin: 3rem auto -3.5rem;
+    padding: 1.5rem;
+  
+    .imgIcon{
+      width: 1.9rem;
+      height: 1.9rem;
+    }
+  }
 `;
