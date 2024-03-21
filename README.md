@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+# Advice Generator
+Este projeto é um gerador de conselhos desenvolvido em React com TypeScript, utilizando styled-components para estilização e Axios para realizar chamadas à API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Funcionalidades
+<li>Gera conselhos aleatórios com base em uma API externa.
+<li>Interface simples e intuitiva.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
+<li>React
+<li>TypeScript
+<li>Styled-components
+<li>Axios
+<li>Pré-requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demonstração
+Você pode visualizar a demonstração do projeto [aqui]([https://pachecx.github.io/Card_Interativo/](https://pachecx.github.io/Advice_Generator/)).
 
-## Expanding the ESLint configuration
+## DESKTOP
+![localhost_5173_ (4)](https://github.com/pachecx/Advice_Generator/assets/112892819/18b91ec2-c896-48d1-b648-262aa5a82836)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## MOBILE
+![localhost_5173_ (2)](https://github.com/pachecx/Advice_Generator/assets/112892819/691b3d73-0ddb-43e6-889a-9fca31b6dd8d)
