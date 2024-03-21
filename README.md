@@ -10,10 +10,9 @@ Este projeto é um gerador de conselhos desenvolvido em React com TypeScript, ut
 <li>TypeScript
 <li>Styled-components
 <li>Axios
-<li>Pré-requisitos
 
 ## Demonstração
-Você pode visualizar a demonstração do projeto [aqui]([https://pachecx.github.io/Card_Interativo/](https://pachecx.github.io/Advice_Generator/)).
+Você pode visualizar a demonstração do projeto [aqui](https://pachecx.github.io/Advice_Generator/).
 
 ## DESKTOP
 ![localhost_5173_ (4)](https://github.com/pachecx/Advice_Generator/assets/112892819/18b91ec2-c896-48d1-b648-262aa5a82836)
